@@ -1,0 +1,336 @@
+
+/* CSS Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Giving a font-family to the HTML */
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Utility Class- Same styling in all the three HTML pages */
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+.clr{
+    clear: both;
+}
+.special_heading{
+    color:#f7c08a;
+}
+
+
+/* Styling for the horizontal navigation bar that all the three pages contain*/
+
+#navbar{
+    background-color: rgb(51,51,51);
+    overflow: auto;
+}
+#navbar .current{
+    color:#f7c08a;
+    background-color: #444;
+}
+#navbar h1{
+    float:left;
+    padding-top:15px;
+    padding-left: 20px;
+}
+#navbar .logo{
+    text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+}
+#navbar ul{
+    float:right;
+}
+#navbar ul li{
+    float: left;
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    padding:20px;
+    text-decoration: none;
+    color:#fff;
+}
+#navbar ul li a:hover{
+    color:#f7c08a;
+    background-color: #444;
+}
+
+/* Styling the footer */
+
+#footer{
+    background-color: #444;
+    text-align: center;
+    font-size: 16px;
+    color:#fff;
+    padding:20px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Home page styling */
+
+#home_background{
+    height:600px;
+    background: url('../images/showcase.jpg')no-repeat center center/cover;
+    text-align: center;
+    color:#fff;
+}
+#home_background .home_content{
+    padding-top: 170px;
+}
+#home_background .home_content h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+#home_background .home_content p{
+    font-size: 20px;
+    margin:10px 0px;
+    padding-bottom: 20px;
+    line-height: 34px;
+}
+#home_background .home_content a{
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    background-color: #333;
+    font-size: 18px;
+    padding:13px 20px;
+    cursor: pointer;
+}
+#home_background .home_content a:hover{
+    background-color:#f7c08a;
+    color:#333;
+}
+
+
+#home_info{
+    background-color: #333;
+    height:400px;
+}
+#home_info .info_image{
+    background: url('../images/photo-1.jpg')no-repeat center center/cover;
+    float:left;
+    width:50%;
+    min-height: 100%;
+}
+#home_info .home_text{
+    min-height: 100%;
+    padding:50px 30px;
+    float: right;
+    width:50%;
+    color:#fff;
+    text-align: center;
+}
+#home_info .home_text h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#home_info .home_text p{
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    margin:10px 0px;
+    line-height: 27.2px;
+}
+#home_info .home_text a{
+    text-decoration: none;
+    display: inline-block;
+    padding:13px 20px;
+    color:#333;
+    background-color: #f4f4f4;
+    font-size: 18px;
+}
+#home_info .home_text a:hover{
+    background-color: #f7c08a;
+}
+
+
+#features .box{
+    float:left;
+    width:33.3%;
+    padding:50px;
+    color:#333;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+#features .middle_box{
+    background-color: #f7c08a;
+}
+#features h3{
+    padding-top:10px;
+    padding-bottom:20px;
+}
+#features p{
+    margin:10px 0px;
+    line-height: 27.2px;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/* About page styling */
+
+#about_content{
+    padding:30px 0px;
+    color:#333;
+    overflow: auto;
+    background-color: #f4f4f4;
+}
+#about_content .about_text{
+    float: left;
+    width:50%;
+}
+#about_content .about_text h1{
+    font-size: 40px;
+    color:#333;
+    padding-bottom: 20px;
+}
+#about_content .about_text p{
+    margin:10px 0px;
+    line-height: 27.2px;
+}
+#about_content .about_image{
+    float:right;
+    width:50%;
+}
+#about_content .about_image img{
+    width:70%;
+    display:block;
+    margin:10px auto;
+    border-radius: 50%;
+}
+
+
+#guest_comments{
+    height:600px;
+    background: url('../images/test-bg.jpg') no-repeat center center/cover;
+    opacity: 0.88;
+    padding: 100px 20px 30px 20px;
+}
+#guest_comments h2{
+    font-size: 40px;
+    color:#fff;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#guest_comments .first_comment{
+    background-color: #f7c08a;
+    overflow: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+#guest_comments .first_comment .first_image{
+    padding:20px;
+}
+#guest_comments .first_comment img{
+    width:160px;
+    float:left;
+    border-radius: 50%;
+}
+#guest_comments .first_comment p{
+    float:right;
+    width:80%;
+    padding-top:20px;
+    padding-right: 20px;
+    color:#333;
+    line-height: 27.2px;
+    margin:10px 40px 10px 0px;
+}
+#guest_comments .second_comment{
+    background-color: #f7c08a;
+    overflow: auto;
+    border-radius: 5px;
+}
+#guest_comments .second_comment .second_image{
+    padding:20px;
+}
+#guest_comments .second_comment img{
+    width:160px;
+    float:left;
+    border-radius: 50%;
+}
+#guest_comments .second_comment p{
+    float:right;
+    width:80%;
+    padding-top:20px;
+    padding-right:20px;
+    color:#333;
+    line-height: 27.2px;
+    margin:10px 40px 10px 0px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Contact page styling */
+
+#contact_form{
+    padding:30px 0px;
+}
+#contact_form h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+#contact_form p{
+    margin-top: 7px;
+    margin-bottom: 19px;
+}
+#contact_form .form input, 
+#contact_form .form textarea
+{
+    width:100%;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#contact_form .form .btn{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #333;
+    font-size: 18px;
+    color:#fff;
+    padding:13px 20px;
+    cursor: pointer;
+    border:none;
+}
+#contact_form .form .btn:hover{
+    background-color: #f7c08a;
+    color:#333;
+}
+
+
+#features_contact {
+    background-color: #333;
+    overflow: auto;
+    padding:0px 20px;
+}
+#features_contact .box{
+    padding:50px;
+    text-align: center;
+    color:#fff;
+    float: left;
+    width:33.3%
+}
+#features_contact h3{
+    padding-top:8px;
+    padding-bottom:20px;
+}
+#features_contact p{
+    margin:10px 0px;
+}
+
+/* -------------------------------------------------------------------------- */
