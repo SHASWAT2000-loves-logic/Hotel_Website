@@ -10,4 +10,4 @@ b. about.html- about page
 
 c. contact.html- contact page
 
-There is also a CSS file, which has style.css file, which contains all the styling. 
+There is also a CSS folder, which has style.css file, which contains all the styling. 
